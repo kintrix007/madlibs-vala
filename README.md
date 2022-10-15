@@ -12,7 +12,7 @@
 ```sh
 sudo dnf install gcc vala meson ninja-build cmake pkg-config libgee-devel
 ```
-For development also install the `vala-language-server` package.
+For development also install the `vala-language-server` and `uncrustify` package.
 
 ### Build instructions
 
