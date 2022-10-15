@@ -1,6 +1,6 @@
 # Madlibs in Vala
 
-### A simple project demonstrating the difference between the straightforward and the systemic implementation.
+### A simple project demonstrating the difference between the straightforward and the systemic implementation of madlibs.
 
 ### Dependencies
 
