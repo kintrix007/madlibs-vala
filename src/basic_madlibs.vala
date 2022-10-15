@@ -7,10 +7,13 @@ namespace BasicMadlib {
         var new_activity  = prompt("Tell me a verb in 'ing' form: ");
         var day_adjective = prompt("Tell me an adjective: ");
 
+        print("\nHere is your story:\n---\n");
+
         print(@"Once upon a time, there was a(n) $object named $name.\n");
         print(@"This $object really liked to $activity.\n");
         print(@"It was a boring $day, so $name decided that today it would be fun to try $new_activity.\n");
         print(@"$name was $new_activity all day, and the day was $day_adjective!\n");
+        print("---\n\n");
     }
 
     private string? prompt(string prompt) {

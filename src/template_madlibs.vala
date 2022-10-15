@@ -1,5 +1,5 @@
 namespace TemplateMadlibs {
-    public void make_madlibs(string template_string) {
+    public void make_madlib(string template_string) {
         var response_map = new Gee.HashMap<string, string>();
         
         int start_idx = 0;
@@ -17,8 +17,9 @@ namespace TemplateMadlibs {
             }
         }
 
+        print("\n\nHere is your story:\n---\n");
         print(format(template_string, response_map));
-        print("\n");
+        print("\n---\n\n");
     }
 
     private void parse_template_param(string template_string, ref int from, out string id, out string desc) {
